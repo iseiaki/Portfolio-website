@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+<script src="https://kit.fontawesome.com/c292604a0e.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<title> Neumorhism </title>
+<script>
+
+$(document).ready(function(){
+$(".f-panel").mouseenter(function(){
+    $( ".pnl" ).show();
+    $( ".tit1" ).hide();
+    $( ".f-panel" ).animate({
+   height: "300px", 
+    }, 600 );
+});
+$(".f-panel").mouseleave(function(){
+    $( ".pnl" ).hide();
+    $( ".tit1" ).show();
+    $( ".f-panel" ).animate({
+   height: "200px", 
+    }, 600 );
+});
+$(".s-panel").mouseenter(function(){
+    $( ".port" ).show();
+    $( ".shaa" ).show();
+    $( ".tit2" ).hide();
+    $( ".s-panel" ).animate({        
+   height: "450px", 
+    }, 600 );
+});
+$(".s-panel").mouseleave(function(){
+    $( ".port" ).hide();
+    $( ".shaa" ).hide();
+    $( ".tit2" ).show();
+    $( ".s-panel" ).animate({
+   height: "200px", 
+    }, 600 );
+});$(".t-panel").mouseenter(function(){
+    $( ".boutme" ).show();
+    $( ".tit3" ).hide();
+    $( ".t-panel" ).animate({
+   height: "400px", 
+    }, 600 );
+});
+$(".t-panel").mouseleave(function(){
+    $( ".boutme" ).hide();
+    $( ".tit3" ).show();
+    $( ".t-panel" ).animate({
+   height: "200px", 
+    }, 600 );
+});$(".fr-panel").mouseenter(function(){
+
+    $( ".cont" ).show();
+    $( ".tit4" ).hide();
+    $( ".fr-panel" ).animate({
+   height: "400px",
+   "margin-top": "-140px",
+    }, 600 );
+    
+});
+$(".fr-panel").mouseleave(function(){
+    $( ".cont" ).hide();
+    $( ".tit4" ).show();
+    $( ".fr-panel" ).animate({
+   height: "360px", 
+   "margin-top": "0px",
+    }, 600 );
+});
+});
+    
+    </script>
+</head>
+<body>
+<br>
+<br>
+<div class="main-div">
+    <div class="profile">
+        <div class="avatar"><img src="https://i.ibb.co/CQSzk7x/280121356-187289583632254-2589962459951880734-n.jpg" class="avatar-img"></div>
+    <div class="name">Mirian Kurtanidze</div>
+    <div class="description">> My hobby is Coding/Gaming.<br> I've been actively coding since 2020! <br>Was a freelancer on Upwork.com (2021)<br>Was a freelancer on Freelancer.com (2021)<br>Was a freelancer on Fiverr.com (2022) <br> Currently unemployed/looking for a job <br> Feel free to hit me up with reasonable offers!
+    </div>
+    <div class="icons">
+    <div class="socials">Socials</div>
+    <div class="instagram"><i class="fa-brands fa-instagram"></i> Solidity.page</div>
+    <div class="twitter"><i class="fa-brands fa-twitter-square"></i> Dailydoseofbc</div>
+    <div class="facebook"><i class="fa-brands fa-facebook"></i> Mirian Kurtanidze</div>
+    <div class="github"><i class="fa-brands fa-github"></i> Mirian Kurtanidze</div>
+    </div>
+    </div>
+<!-- adding moving panels -->
+<div class="panels">
+<div class="f-panel"><div class="tit tit1" ><h1>Technological Skills</h1></div><img src="https://i.ibb.co/pvdHn6T/Screenshot-3-removebg-preview-2.png" class="imgg pnl"></div>
+<div class="s-panel"><div class="tit tit2"><h1>Portfolio</h1></div><img src="https://i.pinimg.com/736x/be/3a/53/be3a5374058c4584201f97ba9004a8d5.jpg" class="port-1 port"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/c4b12722f50791fe162dd5a27afa217ced8d5bd6b10d8d1c80e5ad0490eff63f1622375935018.jpg" class="port-2 port"><img src="https://s.tmimgcdn.com/scr/800x500/67600/inside-psychology-clinic-multipage-html5-website-template_67685-original.jpg" class="port-3 port"><img src="https://freshdesignweb.com/wp-content/uploads/Personal-Website-Templates.jpg" class="port-4 port"><img src="https://colorlib.com/cdn-cgi/image/width=1200,height=946,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/sites/2/jony-free-template.jpg" class="port-5 port"><img src="https://themewagon.com/wp-content/uploads/2021/10/feane-1.png" class="port-6 port"> <div class="shaa"> . . . More on <a href="https://github.com/Scriptman-IU" target=”_blank” style="text-decoration: none;">GitHub</a></div>
+</div>
+<div class="t-panel"><div class="tit tit3"><h1>About me</h1></div><div class="boutme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius gravida odio pulvinar mattis. Suspendisse pellentesque neque risus, vel porta sem gravida at. Quisque non accumsan felis. Integer eget orci molestie, eleifend tortor quis, elementum enim. Phasellus vel egestas ipsum. Phasellus a porta libero. Curabitur efficitur enim vitae massa ultricies, nec lobortis lorem convallis. Donec libero justo, finibus et tincidunt ac, imperdiet non sapien. Nam varius libero vel leo lacinia convallis. Nam eros ipsum, egestas nec scelerisque ut, suscipit eget nisi. Vivamus vestibulum lacus ut ipsum aliquam, nec mattis metus euismod. Donec efficitur nulla a urna fermentum, in pharetra purus efficitur.</div></div>
+<div class="fr-panel"><div class="tit tit4"><h1>Contact</h1></div><div class="cont">Feel free to contact me on Twitter/Instagram!</div></div>
+<!--end of moving panels-->
+</div>
+</div>
+
+
+<br>
+ <br>
+  <br> <!--
+   <br>
+    <br>
+     <br>
+      <br>
+     <br>
+    <br>
+   <br> -->
+  <br>
+ <br>
+<br>
+
+
+
+</body>
+</html>
